@@ -1,9 +1,10 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-
 import Link from 'next/link';  // ใช้เพื่อสร้างลิงก์สำหรับเริ่มใหม่
 
 import Button from '../components/Button'
+
+import { traitDescriptions } from '../data/traitDescriptions';  // นำเข้าคำอธิบายลักษณะบุคลิกภาพ
 
 const Result = () => {
     const router = useRouter();
