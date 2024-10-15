@@ -133,3 +133,7 @@ body {
   animation-duration: 6s;
   animation-delay: 8s;
 }
+
+.clip-tree {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
